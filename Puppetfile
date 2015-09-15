@@ -38,6 +38,9 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "chrome",      "1.2.0"
+github "iterm2",      "1.2.5"
+github "tunnelblick", "1.0.7"
 github "brewcask",    "0.0.6"
 github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
@@ -65,3 +68,4 @@ github "xquartz",     "1.2.1"
 # github "postgresql",  "4.0.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
+github "virtualbox",    "1.0.13"
