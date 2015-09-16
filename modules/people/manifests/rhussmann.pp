@@ -1,12 +1,17 @@
 class people::rhussmann {
   include listhub::apps::mac
 
+  include atom
   include virtualbox
   include chrome
+  include dropbox
   include iterm2::dev
 
   package {
+    '1password': provider => "brewcask";
     'docker-machine': ;
+    'quicksilver': provider => "brewcask";
+    'rdio': provider => "brewcask";
   }
 
   boxen::osx_defaults {
