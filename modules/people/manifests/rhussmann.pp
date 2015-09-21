@@ -1,5 +1,6 @@
 class people::rhussmann {
   include listhub::apps::mac
+  include listhub::repos
 
   include atom
   include virtualbox
@@ -9,6 +10,7 @@ class people::rhussmann {
 
   package {
     '1password': provider => "brewcask";
+    'cura': provider => "brewcask";
     'docker-machine': ;
     'quicksilver': provider => "brewcask";
     'rdio': provider => "brewcask";
